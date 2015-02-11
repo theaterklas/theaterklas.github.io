@@ -3,7 +3,7 @@ $(document).ready(function () {
     var $element = $(element);
     var width = $element.width();
     var height = $element.outerHeight();
-    var src = 'https://unsplash.it/' + width + '/' + height + '?random&element=' + $element.prop('tagName');
+    var src = 'https://unsplash.it/' + width + '/' + height + '?blur&random&element=' + $element.prop('tagName');
 
     $element.css('background-image', 'url(' + src + ')');
   };
