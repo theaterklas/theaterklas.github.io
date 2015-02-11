@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .block {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
   background-color: #fff;
   border: 1px transparent;
   border-radius: 7.5px;
