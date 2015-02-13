@@ -6,7 +6,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Cabin', cursive;
+  font-family: 'Cabin', sans-serif;
 }
 
 .header {
@@ -26,14 +26,53 @@ h1, h2, h3, h4, h5, h6,
 
 .wrap {
   width: 100%;
+  height: auto;
+  padding-bottom: 10px;
   background-color: #fff;
 }
 
 .block {
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: 7.5px;
   margin-bottom: 10px;
-  background-color: #fff;
-  border: 1px transparent;
-  border-radius: 7.5px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.icon-star-two,
+.icon-star-half,
+.icon-star {
+  color: #ffe623;
+}
+
+.between {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.between-one {
+  background-color: #441711;
+}
+
+.between-two {
+  background-color: #114055;
+}
+
+@media (min-width: 992px) {
+  .block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px transparent;
+    border-radius: 7.5px;
+  }
+  .between {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  
 }
