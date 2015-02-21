@@ -9,7 +9,8 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Cabin', sans-serif;
 }
 
-.header {
+.header,
+.about {
   padding-top: 75px;
   width: 100%;
   height: auto;
@@ -61,18 +62,49 @@ h1, h2, h3, h4, h5, h6,
 }
 
 @media (min-width: 992px) {
+  
   .block {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px transparent;
     border-radius: 7.5px;
   }
+  
   .between {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  
+  .member {
+    padding-bottom: 75px;
   }
 }
 
 @media (min-width: 1200px) {
   
+}
+
+.member {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.linda {
+  background-color: #50abdb;
+}
+
+.debby {
+  background-color: #dbcb50;
+}
+
+.janneke {
+  background-color: #db50a0;
+}
+
+.about {
+  padding: 0;
+  padding: 0 10px;
 }
