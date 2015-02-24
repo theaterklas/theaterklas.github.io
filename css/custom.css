@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6,
 .icon-star-two,
 .icon-star-half,
 .icon-star {
-  color: #ffe623;
+  color: #FFDC00;
 }
 
 .between {
@@ -54,11 +54,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .between-one {
-  background-color: #441711;
+  background-color: #ff4136;
 }
 
 .between-two {
-  background-color: #114055;
+  background-color: #2ECC40;
 }
 
 @media (min-width: 992px) {
@@ -84,15 +84,15 @@ h1, h2, h3, h4, h5, h6,
   
 }
 
+.contact,
 .member {
   padding-top: 35px;
   padding-bottom: 35px;
-  padding-left: 15px;
-  padding-right: 15px;
+
 }
 
 .member-top {
- padding-top: 75px;
+  padding-top: 75px;
   padding-bottom: 35px;
   padding-left: 15px;
   padding-right: 15px; 
@@ -103,19 +103,20 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .linda {
-  background-color: #183342;
-  color: #e6e6e6;
 }
 
-.about,
 .debby {
-  /*background-color: #50abdb;*/
+  background-color: rgb(16, 174, 34);
 }
 
 .janneke {
-  background-color: #50abdb;
 }
 
 .about {
   padding: 0;
+  background-color: #2ECC40;
+}
+
+.contact {
+  background-color: #fff;
 }
