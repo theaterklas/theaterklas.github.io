@@ -120,3 +120,8 @@ h1, h2, h3, h4, h5, h6,
 .contact {
   background-color: #fff;
 }
+
+.form-control {
+  border-radius: 0;
+  margin-bottom: 10px;
+}
