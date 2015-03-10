@@ -20,11 +20,8 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Cabin', sans-serif;
 }
 
-.header,
-.about {
+.header {
   padding-top: 75px;
-  width: 100%;
-  height: auto;
 }
 
 .jumbotron {
@@ -44,10 +41,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .block {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 7.5px;
-  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
   background-color: rgba(255, 255, 255, 0.85);
 }
 
@@ -72,31 +69,7 @@ h1, h2, h3, h4, h5, h6,
   background-color: #BED62A;
 }
 
-@media (min-width: 992px) {
-  
-  .block {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px transparent;
-    border-radius: 7.5px;
-  }
-  
-  .between {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  
-  .member {
-    padding-bottom: 75px;
-  }
-}
-
-@media (min-width: 1200px) {
-  
-}
-
-.contact,
-.member {
+.contact {
   padding-top: 35px;
   padding-bottom: 35px;
 
@@ -112,21 +85,14 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .linda {
-  /* DESKTOP ONLY */
-  padding-top: 35px;
-  padding-bottom: 35px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #85B5B2;
 }
 
 .debby {
+  background-color: #85B5B2;
 }
 
 .janneke {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.about {
-  padding: 0;
   background-color: #85B5B2;
 }
 
@@ -158,4 +124,37 @@ footer ol {
 }
 .member-title {
   text-align: center;
+}
+
+@media (min-width: 992px) {
+  .block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px transparent;
+    border-radius: 7.5px;
+  }
+  
+  .between {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .member {
+    padding-bottom: 75px;
+  }
+  
+  .linda,
+  .debby,
+  .janneke {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  
+  .debby {
+    background-color: #6C6B70;
+  }
+}
+
+@media (min-width: 1200px) {
+  
 }
