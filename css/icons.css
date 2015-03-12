@@ -38,54 +38,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-home:before {
+.icon-twitter:before {
   content: "a";
 }
-.icon-about:before {
+.icon-arrow-small-bold:before {
   content: "b";
 }
-.icon-facebook:before {
+.icon-star-two:before {
   content: "c";
 }
-.icon-twitter:before {
+.icon-star-half:before {
   content: "d";
 }
-.icon-arrow-big:before {
+.icon-star:before {
   content: "e";
 }
-.icon-shop:before {
+.icon-facebook:before {
   content: "f";
 }
-.icon-warning:before {
+.icon-email:before {
   content: "g";
-}
-.icon-css3:before {
-  content: "h";
-}
-.icon-html5:before {
-  content: "i";
-}
-.icon-quote:before {
-  content: "j";
-}
-.icon-cloud:before {
-  content: "k";
-}
-.icon-heart:before {
-  content: "l";
-}
-.icon-arrow-small:before {
-  content: "m";
-}
-.icon-arrow-small-bold:before {
-  content: "n";
-}
-.icon-star-two:before {
-  content: "o";
-}
-.icon-star-half:before {
-  content: "p";
-}
-.icon-star:before {
-  content: "q";
 }

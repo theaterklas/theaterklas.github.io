@@ -121,7 +121,9 @@ footer ol {
 
 .icon-lg {
   font-size: 20px;
+  vertical-align: middle;
 }
+
 .member-title {
   text-align: center;
 }
@@ -157,4 +159,8 @@ footer ol {
 
 @media (min-width: 1200px) {
   
+}
+.news {
+  padding-left: 15px;
+  padding-right: 15px;
 }
