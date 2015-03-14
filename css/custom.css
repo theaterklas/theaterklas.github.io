@@ -129,6 +129,16 @@ footer ol {
   text-align: center;
 }
 
+.news {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo > img {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 992px) {
   .block {
     margin-top: 20px;
@@ -161,9 +171,4 @@ footer ol {
 @media (min-width: 1200px) {
   
 }
-.news {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 
