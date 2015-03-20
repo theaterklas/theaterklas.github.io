@@ -4,7 +4,8 @@ $(document).ready(function () {
     $element = $(element);
     width = $element.width();
     height = $element.outerHeight();
-    src = 'https://unsplash.it/' + width + '/' + height + '?blur&random&element=' + $element.prop('tagName');
+    image = '304';
+    src = 'https://unsplash.it/g/' + width + '/' + height + '?blur&image=' + image + '&element=' + $element.prop('tagName');
 
     $element.css('background-image', 'url(' + src + ')');
   };
