@@ -28,17 +28,17 @@ $(document).ready(function () {
   setupTwitter(document, "script", "twitter-wjs");
 });
 
-// <![CDATA[
+/* <![CDATA[
 cc.initialise({
-	cookies: {
-		analytics: {},
-		social: {}
-	},
-	settings: {
-		consenttype: "implicit"
-	}
+  cookies: {
+    analytics: {},
+    social: {}
+  },
+  settings: {
+    consenttype: "implicit"
+  }
 });
-// ]]>
+//]]>
 
 /*!function (d, s, id) {
   var js;
