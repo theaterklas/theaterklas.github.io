@@ -28,6 +28,18 @@ $(document).ready(function () {
   setupTwitter(document, "script", "twitter-wjs");
 });
 
+// <![CDATA[
+cc.initialise({
+	cookies: {
+		analytics: {},
+		social: {}
+	},
+	settings: {
+		consenttype: "implicit"
+	}
+});
+// ]]>
+
 /*!function (d, s, id) {
   var js;
   var fjs = d.getElementsByTagName(s)[0];
