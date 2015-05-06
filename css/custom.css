@@ -16,8 +16,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Cabin', sans-serif;
+.h1, .h2, .h3, .h4, .h5, .h6,
+.logo{
+  font-family: 'Glober', cursive;
 }
 
 header {
@@ -26,11 +27,6 @@ header {
 
 .jumbotron {
   color: #fff;
-}
-
-.logo,
-.navbar-brand {
-  font-family: 'Glober', cursive;
 }
 
 .wrap {
