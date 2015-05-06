@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Cabin', sans-serif;
 }
 
-.header {
+header {
   padding-top: 75px;
 }
 
@@ -129,11 +129,6 @@ footer ol {
   text-align: center;
 }
 
-.news {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .logo > img {
   width: 100%;
   height: auto;
@@ -172,5 +167,22 @@ footer ol {
   
 }
 
+article {
+  border-top: 1px solid #ddd;
+  padding: 5px 15px;
+}
 
+article .title {
+}
 
+article .undertitle {
+  font-size: 95%;
+  color: #777;
+}
+
+article .writer, article .date {
+  color: #444;
+}
+
+article .text {
+}
