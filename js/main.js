@@ -1,7 +1,7 @@
 $(document).ready(function () {
   'use strict';
   var setupRandomImage = function (element) {
-    var $element, width, height, src;
+    var $element, width, height, src, image;
     $element = $(element);
     width = $element.width();
     height = $element.outerHeight();
