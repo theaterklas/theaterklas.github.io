@@ -468,6 +468,9 @@ section.section {
   background-color: #fff;
 }
 
+.bg-green {
+  background-color: #cad400;
+}
 
 /* --- section heading --- */
 
@@ -1341,4 +1344,15 @@ section.pagetop {
 .iframe {
   border: none;
   display: block;
+}
+
+.testimonial-title {
+  margin: 0;
+}
+.star {
+  color: #FFDC00;
+}
+.text  {
+  font-size: 25px;
+  line-height: 35px;
 }

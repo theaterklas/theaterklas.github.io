@@ -11,11 +11,11 @@ a:hover {
 
 /* menu */
 .nav>li>a:hover {
-	color: #79CDC0;
+	color: #cad400;
 }
 
 .navbar .navbar-nav > .active > a {
-	color: #79CDC0;
+	color: #cad400;
 }
 
 /* flexslider */
@@ -63,24 +63,11 @@ a:hover {
    border-color: #35A49C;
 }
 
-/* contact */
-.validation {
-	color: red;
-}
-
 /* footer */
 .social-circle li a {
-	background:#35A49C;
+	background:#cad400;
 }
 
 a.scrollup{
 	background:#35A49C;
-}
-
-#sendmessage {
-    color: green;
-}
-
-#errormessage {
-    color: red;
 }
