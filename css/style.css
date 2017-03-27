@@ -568,6 +568,7 @@ h1 a.navbar-brand {
 
 .navbar-brand {
   padding: 0;
+  padding-left: 20px;
   display: table-cell;
   vertical-align: middle;
   line-height: 90px;
@@ -1061,7 +1062,6 @@ div.cform-response-output {
 
 #google-map {
   position: relative;
-  margin-top: 10px;
   height: 400px;
 }
 
