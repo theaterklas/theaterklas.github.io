@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="all">
     
-    <title>Contact / Theaterklas JRL</title>
+    <title>Tickets / Theaterklas</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Theaterklas is een initiatief vanuit het Jacob-Roelandslyceum. Waarbij een toneelstuk wordt gemaakt door enkele leraren en opgevoerd wordt door leerlingen.">
@@ -17,7 +17,7 @@
     <meta property="og:description" content="Theaterklas is een initiatief vanuit het Jacob-Roelandslyceum. Waarbij een toneelstuk wordt gemaakt door enkele leraren en opgevoerd wordt door leerlingen.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://theaterklas-jrl.nl/img/icon-250.png">
-    <meta property="og:url" content="https://theaterklas-jrl.nl/contact.html">
+    <meta property="og:url" content="https://theaterklas-jrl.nl/tickets.html">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link href="./css/bootstrap.css" rel="stylesheet">
@@ -52,8 +52,8 @@
             <li><a href="productions.html">Producties</a></li>
             <li><a href="recensions.html">Recensies</a></li>
             <li><a href="pictures.html">Foto's</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-            <li><a href="https://ticket.mg-dev.eu/">Reserveren</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="https://ticket.mg-dev.eu/">Reserveren</a></li>
           </ul>
         </div>
       </div>
@@ -62,38 +62,101 @@
     <header>
       <div class="container">
         <div class="jumbotron">
-          <h1 class="logo">Contact</h1>
+          <h1 class="logo">Tickets</h1>
         </div>
       </div>
     </header>
     
-    <div class="contact">
+    <div class="between between-one">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <h3>Stuur ons een berichtje</h3>
-            <form method="POST" action="//formspree.io/info@theaterklas-jrl.nl">
-              <input class="form-control" type="text" name="name"  placeholder="Voornaam + Achternaam">
-              <input class="form-control" type="email" name="_replyto"  placeholder="Email">
-              <input class="form-control" type="hidden" name="_subject" value="Theaterklas Website">
-              <textarea class="form-control" name="message" rows="5" placeholder="Uw bericht"></textarea>
-              <button class="btn btn-success form-control" type="submit">Verstuur!</button>
-              <input type="text" name="_gotcha" style="display:none">
-              <input type="hidden" name="_next" value="https://theaterklas-jrl.nl/thanks.html">
-            </form>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <h3>Of stuur ons eens iets via de post</h3>
-            <p>Jacob-Roelandslyceum</p>
-            <p>Grote Beemd 3</p>
-            <p>5281 CC BOXTEL</p>
-            <p>T.a.v. Theaterklas</p>
-          </div>
+        <div class="well">
+          <h1>Online Systeem</h1>
+          <p>Dit jaar gebruiken wij een online systeem. U kunt gewoon uw ticket zo bestellen en u krijgt hem via de mail toegestuurd! /p>
+          <a href="https://ticket.mg-dev.eu/"><div class="btn btn-success">Naar het ticket systeem!</div></a>
         </div>
       </div>
     </div>
     
-    <iframe src="https://mapbuildr.com/frame/f3whcx" frameborder="0" height="450" width="100%"></iframe>
+    <!--
+    <div class="between between-one">
+      <div class="container">
+        <div class="row well">
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <h3>Bestellen</h3>
+            <form class="form-horizontal" method="POST" action="//formspree.io/tickets@theaterklas-jrl.nl">
+              
+              <label class="col-sm-3 control-label" for="firstname">Voornaam</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="text" name="firstname" id="firstname" placeholder="Joe">
+              </div>
+              
+              <label class="col-sm-3 control-label" for="surname">Achternaam</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="text" name="surname" id="surname" placeholder="Doe">
+              </div>
+              
+              <label class="col-sm-3 control-label" for="email">Email</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="email" name="email" id="email" placeholder="joe.doe@example.com">
+              </div>
+              
+              <label class="col-sm-3 control-label" for="telephone">Telefoon</label>
+              <div class="col-sm-9">
+                <input class="form-control" type="tel" name="telephone" id="telephone" placeholder="06-12345678">
+              </div>
+              
+              <label class="col-sm-3 control-label" for="day">Dag</label>
+              <div class="col-sm-9">
+                <select class="form-control" name="day" id="day">
+                  <option disabled>16 April 19:30 (Niet meer beschikbaar)</option>
+                  <option disabled>17 April 19:30 (Uitverkocht)</option>
+                </select>
+              </div>
+              
+              <label class="col-sm-3 control-label" for="ticket">Aantal Kaartjes</label>
+              <div class="col-sm-9">
+                <select class="form-control" name="ticket" id="ticket">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
+              
+              <div class="col-sm-9 col-sm-offset-3">
+                <button class="btn btn-success form-control" type="submit">Verstuur!</button>
+              </div>
+              
+              <input type="text" name="_gotcha" style="display:none">
+              <input type="hidden" name="_subject" value="Theaterklas Tickets 2014/2015">
+              <input type="hidden" name="_next" value="https://theaterklas-jrl.nl/thanks.html">
+              <input type="hidden" name="_cc" value="toneelgroepjrl@gmail.com">
+            </form>
+          </div>
+          
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h3>Disclaimer</h3>
+            <ul>
+              <li>De kosten van één ticket bedragen 2.50 Euro.</li>
+              <li>Wanneer u verhinderd bent zal u dat laten weten door een email te sturen naar info@theaterklas-jrl.nl ondervermelding van uw voor- en achternaam waarop de tickets staan.</li>
+              <li>Op vertoon van de bevestigingsmail kunnen de bestelde tickets worden opgehaald en betaald op de avond van de voorstelling.</li>
+              <li>De kassa gaat een half uur van tevoren open.</li>
+              <li>De voorstellingen vinden plaats op het Jacob-Roelandslyceum, Grote Beemd 3 Boxtel.</li>
+              <li>U komt binnen via de hoofdingang bij de Texaco.</li>
+              <li>Mocht u meer dan 10 kaartjes willen bestellen kunt u contact op nemen met info@theaterklas-jrl.nl.</li>
+              <li>Voor andere vragen kunt u altijd contact met ons opnemen via de contactpagina.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
     
     <footer>
       <div class="container">

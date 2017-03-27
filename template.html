@@ -1,3 +1,4 @@
+<!-- BEGIN HEAD -->
 <!DOCTYPE html>
 <html lang="nl">
   <head>
@@ -5,26 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="all">
     
-    <title>Contact / Theaterklas JRL</title>
+    <title>Template / Theaterklas JRL</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Theaterklas is een initiatief vanuit het Jacob-Roelandslyceum. Waarbij een toneelstuk wordt gemaakt door enkele leraren en opgevoerd wordt door leerlingen.">
-    <meta name="keywords" content="jrl, theaterklas, jacob-roelandslyceum">
-    <meta name="author" content="Matthijs Giezenberg">
+    <meta name="keywords" content="jrl, theaterklas, jacob-roelandslyceum, theaterklas jrl">
+    <meta name="author" content="Matthijs Giezenberg, Martijn van den Steen">
     
     <meta property="og:site_name" content="Theaterklas JRL">
     <meta property="og:title" content="Theaterklas JRL">
     <meta property="og:description" content="Theaterklas is een initiatief vanuit het Jacob-Roelandslyceum. Waarbij een toneelstuk wordt gemaakt door enkele leraren en opgevoerd wordt door leerlingen.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://theaterklas-jrl.nl/img/icon-250.png">
-    <meta property="og:url" content="https://theaterklas-jrl.nl/contact.html">
+    <meta property="og:url" content="https://theaterklas-jrl.nl">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@theaterklas_jrl">
+    <meta name="twitter:title" content="Theaterklas JRL">
+    <meta name="twitter:description" content="Theaterklas is een initiatief vanuit het Jacob-Roelandslyceum. Waarbij een toneelstuk wordt gemaakt door enkele leraren en opgevoerd wordt door leerlingen.">
+    <meta name="twitter:image" content="https://theaterklas-jrl.nl/img/icon-250.png">
+    <meta name="twitter:url" content="https://theaterklas-jrl.nl/">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/theme.css" rel="stylesheet">
     <link href="./css/custom.css" rel="stylesheet">
     <link href="./css/icons.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Cabin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -32,6 +40,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  
+<!-- END HEAD -->
+
+<!-- BEGIN NAV -->
 
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -52,49 +64,88 @@
             <li><a href="productions.html">Producties</a></li>
             <li><a href="recensions.html">Recensies</a></li>
             <li><a href="pictures.html">Foto's</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <li><a href="https://ticket.mg-dev.eu/">Reserveren</a></li>
           </ul>
         </div>
       </div>
     </nav>
     
+<!-- END NAV -->
+    
+<!-- BEGIN HEADER -->
+    
     <header>
       <div class="container">
         <div class="jumbotron">
-          <h1 class="logo">Contact</h1>
+          <div class="logo">
+            <h1>Templates</h1>
+          </div>
         </div>
       </div>
     </header>
     
-    <div class="contact">
+<!-- END HEADER -->
+      
+<!-- BEGIN WRAP -->
+    
+    <div class="wrap">
+      <div class="container">
+        <h1>Hello!</h1>
+        <p> All templates that I made for the website. Also easy for me te copy/paste the templates for reuse on other parts of the site and to transform this site into a Jekyll based site (or October CMS, but that cant be hosted on Github Pages).
+        </p>
+      </div>
+    </div>
+    
+<!-- END WRAP -->
+            
+<!-- BEGIN ARTICLE -->
+            
+              <article>
+                <h4 class="title">Article template</h4>
+                <p class="undertitle"> Door: <span class="writer">Martijn van der Steen</span> - Gepubliceerd op: <span class="date">1 January 2015 00:00 (Format)</span>
+                </p>
+                <div class="text">
+                  <p>TEXT (LOOKS DONT CARE HERE, ONLY CODE IS NEEDED)</p>
+                </div>
+              </article>
+            
+<!-- END ARTICLE -->
+    
+<!-- BEGIN REVIEW -->
+    
+    <div class="between between-one">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <h3>Stuur ons een berichtje</h3>
-            <form method="POST" action="//formspree.io/info@theaterklas-jrl.nl">
-              <input class="form-control" type="text" name="name"  placeholder="Voornaam + Achternaam">
-              <input class="form-control" type="email" name="_replyto"  placeholder="Email">
-              <input class="form-control" type="hidden" name="_subject" value="Theaterklas Website">
-              <textarea class="form-control" name="message" rows="5" placeholder="Uw bericht"></textarea>
-              <button class="btn btn-success form-control" type="submit">Verstuur!</button>
-              <input type="text" name="_gotcha" style="display:none">
-              <input type="hidden" name="_next" value="https://theaterklas-jrl.nl/thanks.html">
-            </form>
+          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 well">
+            <h4>NAME</h4>
+            <span class="icon-star-two"></span>
+            <span class="icon-star-two"></span>
+            <span class="icon-star-two"></span>
+            <span class="icon-star-two"></span>
+            <span class="icon-star"></span>
+            <p> "Tussen haakjes komt de recensie zelf, omdat het dan lijkt alsof we dingen citeren. Alleen we passen soms de recensies aan om het positief te laten lijken :)"
+            </p>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <h3>Of stuur ons eens iets via de post</h3>
-            <p>Jacob-Roelandslyceum</p>
-            <p>Grote Beemd 3</p>
-            <p>5281 CC BOXTEL</p>
-            <p>T.a.v. Theaterklas</p>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 well">
+            <h4>NAME</h4>
+            <span class="icon-star-two"></span>
+            <span class="icon-star-two"></span>
+            <span class="icon-star-two"></span>
+            <span class="icon-star-half"></span>
+            <span class="icon-star"></span>
+            <p> "En bij de tweede doen we gewoon precies het zelfde als bij nummer een. Owja de sterrentjes zijn ook aanpasbaar, maar dat is makkelijker om met de hand te doen :D"
+            </p>
           </div>
         </div>
       </div>
     </div>
+    <p>NOTE: De recensies breedte zijn om en om, dus de ene keer col-5 en col-6 en dan de andere keer col-6 en col-5</p>
     
-    <iframe src="https://mapbuildr.com/frame/f3whcx" frameborder="0" height="450" width="100%"></iframe>
-    
+<!-- END RECENSION -->
+      
+<!-- BEGIN FOOTER -->
+      
     <footer>
       <div class="container">
         <div class="row">
@@ -111,7 +162,7 @@
               <li><span class="icon-email icon-lg"></span> <a href="mailto:info@theaterklas-jrl.nl">info@theaterklas-jrl.nl</a></li>
             </ol>
           </div>
-           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <h3>Adres</h3>
             <p>Jacob-Roelandslyceum</p>
             <p>Grote Beemd 3</p>
@@ -123,8 +174,11 @@
       </div>
     </footer>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- JavaScript loads latest, pageload will be faster! -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
+  
+<!-- END FOOTER -->
